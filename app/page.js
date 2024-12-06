@@ -26,7 +26,10 @@ export default function Home() {
           className="image1"
           alt="Background"
         />
-        <div className="WText">Welcome to SP Food Chain</div>
+        <div className="WText">SP Food Chain
+            <p className="slogan">Get all your healthy foods at your doorstep 🥦</p>
+            <p className="welcome">Welcome</p>
+            </div>
       </div>
 
       <div className="sub-container" data-aos="fade-up">
