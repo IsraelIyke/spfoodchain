@@ -27,31 +27,12 @@ export default function Home() {
           className="image1"
           alt="Background"
         />
-        <div className="WText">SP Food Chain
+        <div className="WText" data-aos="flip-left" data-aos-duration="100">SP Food Chain
             <p className="slogan">Get all your healthy foods at your doorstep 🥦</p>
             <p className="welcome">Welcome</p>
             </div>
       </div>
 
-      <div className="sub-container" data-aos="fade-up">
-        <div className="banner">banner</div>
-        <div className="card" data-aos="fade-down-right">
-          <div>card</div>
-        </div>
-        <div className="card-2">
-          <div data-aos="flip-left" data-aos-duration="3000">
-            card
-          </div>
-          <div data-aos="flip-right" data-aos-duration="500">
-            card
-          </div>
-        </div>
-        <div className="card-3">
-          <div data-aos="zoom-in">card</div>
-          <div data-aos="zoom-in-up">card</div>
-          <div data-aos="zoom-in-down">card</div>
-        </div>
-      </div>
     </div>
   );
             }
