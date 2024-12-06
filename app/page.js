@@ -8,6 +8,7 @@ export default function Home() {
   useEffect(() => {
     AOS.init({});
   }, []);
+
   return (
     <div className="container">
       <header>
@@ -23,9 +24,11 @@ export default function Home() {
           height={1000}
           width={1000}
           className="image1"
+          alt="Background"
         />
         <div className="WText">Welcome to SP Food Chain</div>
       </div>
+
       <div className="sub-container" data-aos="fade-up">
         <div className="banner">banner</div>
         <div className="card" data-aos="fade-down-right">
@@ -47,4 +50,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+            }
