@@ -24,8 +24,8 @@ export default function Home() {
       <div className="image2">
         <Image
           src="/image1.jpg"
-          height={1000}
-          width={1000}
+          height={500}
+          width={500}
           className="image1"
           alt="Background"
         />
@@ -40,7 +40,7 @@ export default function Home() {
       <div id="services">
         <h2 className="service-title">What we offer</h2>
         <div className="services-section">
-          <div className="card">
+          <div className="card" data-aos="flip-left">
             <h3>Courier Services</h3>
             <p>
               Reliable delivery of fresh and healthy food to your doorstep with
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
             <button className="card-button">Learn More</button>
           </div>
-          <div className="card">
+          <div className="card" data-aos="flip-left">
             <h3>Storage Services</h3>
             <p>
               Secure, temperature-controlled storage for raw food and dairy to
@@ -56,7 +56,7 @@ export default function Home() {
             </p>
             <button className="card-button">Learn More</button>
           </div>
-          <div className="card">
+          <div className="card" data-aos="flip-left">
             <h3>On Demand Healthy Food</h3>
             <p>
               Delivering fresh, nutritious meals tailored to your needs with
@@ -99,22 +99,40 @@ export default function Home() {
         <div class="blog-container">
           <h2>Our Blog</h2>
           <div class="blog-list">
-            <div class="blog-item">
-              <img src="image5.jpg" alt="Blog Image 1" class="blog-image" />
+            <div class="blog-item" data-aos="fade-down-right">
+              <Image
+                src="/image5.jpg"
+                height={500}
+                width={500}
+                alt="Blog Image 1"
+                class="blog-image"
+              />
               <h3 class="blog-title">The Importance of Eating Healthy</h3>
               <a href="#" class="read-more">
                 Read More
               </a>
             </div>
-            <div class="blog-item">
-              <img src="image3.jpg" alt="Blog Image 2" class="blog-image" />
+            <div class="blog-item" data-aos="fade-down-right">
+              <Image
+                src="/image3.jpg"
+                height={500}
+                width={500}
+                alt="Blog Image 2"
+                class="blog-image"
+              />
               <h3 class="blog-title">Tips for Sustainable Agriculture</h3>
               <a href="#" class="read-more">
                 Read More
               </a>
             </div>
-            <div class="blog-item">
-              <img src="image4.jpg" alt="Blog Image 3" class="blog-image" />
+            <div class="blog-item" data-aos="fade-down-right">
+              <Image
+                src="/image4.jpg"
+                height={500}
+                width={500}
+                alt="Blog Image 3"
+                class="blog-image"
+              />
               <h3 class="blog-title">Healthy Recipes for Busy Lifestyles</h3>
               <a href="#" class="read-more">
                 Read More
