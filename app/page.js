@@ -128,8 +128,8 @@ export default function Home() {
         <div class="contact-container">
           <h2>Contact Us</h2>
           <p>
-            We'd love to hear from you! Whether you have questions, feedback, or
-            need assistance, feel free to reach out.
+            We&apos;d love to hear from you! Whether you have questions,
+            feedback, or need assistance, feel free to reach out.
           </p>
 
           <form id="contact-form">
