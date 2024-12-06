@@ -1,6 +1,54 @@
-.container {
-  font-family: Arial, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  border-bottom: 2px solid rgb(69, 108, 9);
+  /* backdrop-filter: blur(10px); */
+  z-index: 1;
+  background-color: white;
+  color: rgb(29, 60, 3);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
 }
+header {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+
+  height: 4rem;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  color: orange;
+  text-align: center;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.image1 {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
+.image2{
+  position: relative;
+  }
 
 .image2 {
   position: relative;
