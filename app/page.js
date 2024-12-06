@@ -32,7 +32,21 @@ export default function Home() {
             <p className="welcome">Welcome</p>
             </div>
       </div>
-
+<div class="services-section">
+            <h2>Services</h2>
+  <div class="card">
+    <h3>Service 1</h3>
+    <p>Details about service </p>
+  </div>
+  <div class="card">
+    <h3>Service 2</h3>
+    <p>Details about service </p>
+  </div>
+  <div class="card">
+    <h3>Service 3</h3>
+    <p>Details about service </p>
+  </div>
+</div>
     </div>
   );
             }
