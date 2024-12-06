@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.container{
+  width: 100vw;
+}
 nav {
   position: fixed;
   height: 5rem;
