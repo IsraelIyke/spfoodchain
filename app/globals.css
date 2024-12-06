@@ -51,7 +51,7 @@ nav {
   }
 .WText{
   height: 40vh;
-  width: 70vw
+  width: 70vw;
   padding: 20px;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.1);
@@ -67,7 +67,7 @@ nav {
   margin-top: 2rem;
   
   position: absolute;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
 }
