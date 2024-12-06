@@ -60,7 +60,7 @@ nav {
 .WText {
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 0%;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
