@@ -51,7 +51,7 @@ export default function Home() {
           <div className="card" data-aos="flip-left">
             <h3>Storage Services</h3>
             <p>
-              Secure, temperature-controlled storage for raw food and dairy to
+              Secure, temperature-controlled storage for raw food, dairy and other animal products to
               ensure freshness.
             </p>
             <button className="card-button">Learn More</button>
