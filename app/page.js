@@ -27,7 +27,7 @@ export default function Home() {
           className="image1"
           alt="Background"
         />
-        <div className="WText">SP Food Chain
+        <div className="WText"  data-aos="zoom-in">SP Food Chain
             <p className="slogan">Get all your healthy foods at your doorstep 🥦</p>
             <p className="welcome">Welcome</p>
             </div>
