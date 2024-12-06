@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import { useEffect } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Home() {
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function Home() {
       <header>
         <nav>
           <b>SPFC</b>
-          <div>menu</div>
+          <div><GiHamburgerMenu/></div>
         </nav>
       </header>
 
