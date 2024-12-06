@@ -59,8 +59,8 @@ nav {
 
 .WText {
   position: absolute;
-  top: 30%;
-  left: 10%;
+  top: 50%;
+  left: 5%;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -93,3 +93,43 @@ font-size: 0.7rem;
   font-size: 1.2rem;
   color: white;
 }
+.services-section {
+  display: flex;
+  flex-direction: column; /* Default for mobile */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 90%; /* Full width on mobile */
+  max-width: 300px; /* Limit card width */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Desktop View */
+@media (min-width: 768px) {
+  .services-section {
+    flex-direction: row; /* Row layout for desktop */
+    gap: 30px;
+  }
+
+  .card {
+    width: 30%; /* Cards take 30% of the container */
+  }
+  }
