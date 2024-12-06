@@ -99,7 +99,7 @@ export default function Home() {
         <div class="blog-container">
           <h2>Our Blog</h2>
           <div class="blog-list">
-            <div class="blog-item" data-aos="fade-down-right">
+            <div class="blog-item" data-aos="flip-left">
               <Image
                 src="/image5.jpg"
                 height={500}
@@ -112,7 +112,7 @@ export default function Home() {
                 Read More
               </a>
             </div>
-            <div class="blog-item" data-aos="fade-down-right">
+            <div class="blog-item" data-aos="flip-left">
               <Image
                 src="/image3.jpg"
                 height={500}
@@ -125,7 +125,7 @@ export default function Home() {
                 Read More
               </a>
             </div>
-            <div class="blog-item" data-aos="fade-down-right">
+            <div class="blog-item" data-aos="flip-left">
               <Image
                 src="/image4.jpg"
                 height={500}
