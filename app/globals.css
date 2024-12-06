@@ -46,21 +46,12 @@ nav {
   height: 70vh;
   object-fit: cover;
 }
-.image2{
-  position: relative;
-  }
 
 .image2 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.image1 {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 
 .WText {
@@ -73,7 +64,8 @@ nav {
   -webkit-backdrop-filter: blur(10px);
   color: white;
   font-size: 2rem;
-  padding: 20px 40px;
+  width: 70vw;
+  height: 40vh;
   border-radius: 15px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.3);
