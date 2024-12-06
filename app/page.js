@@ -85,9 +85,10 @@ export default function Home() {
             Through sustainable agricultural practices, we ensure that every
             product we offer meets the highest standards of nutrition and
             quality. Our services go beyond just food delivery — we provide
-            convenient storage solutions for raw food and dairy products, making
+            convenient storage solutions for raw food, dairy products and other animal products, making
             it easier for our customers to maintain a healthy diet.
-          
+          </p>
+          <p>
             With us, you&apos;re not just getting food; you&apos;re gaining a
             partner in your journey toward a healthier life. Let&apos;s
             transform the way you eat, one healthy bite at a time!
