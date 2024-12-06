@@ -56,7 +56,7 @@ nav {
 
 .WText {
   position: absolute;
-  top: 90%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -77,9 +77,12 @@ nav {
   flex-direction: column;
 }
 .slogan{
-font-size: 0.9rem;
+font-size: 0.7rem;
   color: orange;
+  margin-top: 1rem;
+  padding: 0 0.8rem 0 0.8rem;
 }
 .welcome{
   font-size: 0.9rem;
+  margin-top: 1rem;
 }
