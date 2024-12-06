@@ -64,6 +64,10 @@ nav {
   -webkit-backdrop-filter: blur(10px);
   color: white;
   font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 70vw;
   height: 40vh;
   border-radius: 15px;
