@@ -15,7 +15,7 @@ export default function Home() {
       <header>
         <nav>
           <b>SPFC</b>
-          <div><GiHamburgerMenu/></div>
+          <div><GiHamburgerMenu className="menu"/></div>
         </nav>
       </header>
 
