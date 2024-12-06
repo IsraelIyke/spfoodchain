@@ -1,6 +1,7 @@
 "use client";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -9,7 +10,22 @@ export default function Home() {
   }, []);
   return (
     <div className="container">
-      <nav>nav</nav>
+      <header>
+        <nav>
+          <b>SPFC</b>
+          <div>menu</div>
+        </nav>
+      </header>
+
+      <div className="image2">
+        <Image
+          src="/image1.jpg"
+          height={1000}
+          width={1000}
+          className="image1"
+        />
+        <div>Welcome to SP Food Chain</div>
+      </div>
       <div className="sub-container" data-aos="fade-up">
         <div className="banner">banner</div>
         <div className="card" data-aos="fade-down-right">
