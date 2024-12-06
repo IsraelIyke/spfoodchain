@@ -24,7 +24,7 @@ export default function Home() {
           width={1000}
           className="image1"
         />
-        <div>Welcome to SP Food Chain</div>
+        <div className="WText">Welcome to SP Food Chain</div>
       </div>
       <div className="sub-container" data-aos="fade-up">
         <div className="banner">banner</div>
