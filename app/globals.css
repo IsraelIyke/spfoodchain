@@ -143,7 +143,7 @@ nav {
   font-weight: bold;
   cursor: pointer;
   background: linear-gradient(rgba(62, 42, 3, 0.598), rgba(255, 165, 0, 0.4)),
-    /* Orange overlay */ url("/image1.jpg") center/cover no-repeat; /* Image background */
+    /* Orange overlay */ url("/image6.jpg") center/cover no-repeat; /* Image background */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-size 0.3s ease, transform 0.3s ease;
 }
@@ -262,7 +262,7 @@ nav {
 
 #contact-form .btn-submit {
   background: linear-gradient(rgba(62, 42, 3, 0.598), rgba(255, 165, 0, 0.4)),
-    /* Orange overlay */ url("/image1.jpg") center/cover no-repeat; /* Image background */
+    /* Orange overlay */ url("/image6.jpg") center/cover no-repeat; /* Image background */
   color: white;
   padding: 10px 20px;
   font-size: 1.1rem;

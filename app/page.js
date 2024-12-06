@@ -24,8 +24,8 @@ export default function Home() {
       <div className="image2">
         <Image
           src="/image1.jpg"
-          height={500}
-          width={500}
+          height={800}
+          width={800}
           className="image1"
           alt="Background"
         />
