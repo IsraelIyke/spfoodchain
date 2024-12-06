@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Average&family=Pacifico&family=Tilt+Neon&display=swap");
+
 body {
   overflow-x: hidden;
 }
