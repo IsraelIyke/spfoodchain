@@ -95,7 +95,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section id="blog-section">
+      <section id="blog">
         <div class="blog-container">
           <h2>Our Blog</h2>
           <div class="blog-list">
