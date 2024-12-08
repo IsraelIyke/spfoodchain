@@ -95,7 +95,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section id="blog">
+      <section id="blog-section">
         <div class="blog-container">
           <h2>Our Blog</h2>
           <div class="blog-list">
@@ -211,13 +211,14 @@ export default function Home() {
               </li>
               <li>
                 <a href="#services">Services</a>
+              </li> 
+                <li>
+                <a href="#blog-section">Blog</a>
               </li>
               <li>
                 <a href="#contact-us">Contact</a>
               </li>
-              <li>
-                <a href="#blog">Blog</a>
-              </li>
+             
             </ul>
           </div>
 
