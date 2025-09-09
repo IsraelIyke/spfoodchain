@@ -1,6 +1,6 @@
 # 🍔 SP Food Chain
 
-A modern food delivery web application built with **Next.js**, **Tailwind CSS**, and **AOS** for smooth animations.  
+A modern food delivery frontend sample built with **Next.js**, **Tailwind CSS**, and **AOS** for smooth animations.  
 This project demonstrates a responsive and visually appealing food chain/grocery delivery website.
 
 ---
