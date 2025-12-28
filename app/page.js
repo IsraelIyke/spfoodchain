@@ -36,7 +36,7 @@ export default function Home() {
     e.preventDefault();
     console.log("Form submitted:", formData);
     // Add your form submission logic here
-    alert("Thank you for your message! We'll get back to you soon.");
+    alert("Thank you for your message! We will get back to you soon.");
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -369,7 +369,7 @@ export default function Home() {
                 Get In <span className="text-green-600">Touch</span>
               </h2>
               <p className="text-gray-600 text-base md:text-lg">
-                We'd love to hear from you! Whether you have questions, feedback, or need assistance.
+                We would love to hear from you! Whether you have questions, feedback, or need assistance.
               </p>
             </div>
 
