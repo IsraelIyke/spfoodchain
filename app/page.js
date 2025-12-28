@@ -32,7 +32,7 @@ export default function Home() {
     });
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     // Add your form submission logic here
@@ -40,7 +40,7 @@ export default function Home() {
     setFormData({ name: "", email: "", message: "" });
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
