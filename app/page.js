@@ -103,7 +103,7 @@ export default function Home() {
       {/* Navigation */}
       <header className="fixed top-0 left-0 right-0 z-50">
         <nav className="container mx-auto px-4 py-4">
-          <div className="backdrop-blur-xl bg-white/80 border border-white/20 rounded-2xl shadow-lg px-6 py-3 flex justify-between items-center">
+          <div className="backdrop-blur-xl border border-white/20 rounded-2xl shadow-lg px-6 py-3 flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <FaLeaf className="text-2xl text-green-600" />
               <span className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-700 bg-clip-text text-transparent">
@@ -117,7 +117,7 @@ export default function Home() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
+                  className="text-white hover:text-green-600 font-medium transition-colors duration-300"
                 >
                   {item.label}
                 </a>
@@ -209,7 +209,7 @@ export default function Home() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
           <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center animate-bounce">
             <div className="w-1 h-3 bg-white/70 rounded-full mt-2" />
           </div>
@@ -259,7 +259,7 @@ export default function Home() {
 
       {/* About Us Section */}
       <section id="about-us" className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-1 md:px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -339,7 +339,7 @@ With us, you are not just getting food; you are gaining a partner in your journe
 
       {/* Contact Section */}
       <section id="contact-us" className="py-20 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-1 md:px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
