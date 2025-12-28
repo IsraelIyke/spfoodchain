@@ -116,7 +116,7 @@ export default function Home() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-white hover:text-green-600 font-medium transition-colors duration-300"
+                  className="text-green-600 hover:text-green-800 font-medium transition-colors duration-300"
                 >
                   {item.label}
                 </a>
@@ -128,7 +128,7 @@ export default function Home() {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-white text-2xl"
+              className="md:hidden text-green-600 text-2xl"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <IoClose /> : <GiHamburgerMenu />}
@@ -337,7 +337,7 @@ With us, you are not just getting food; you are gaining a partner in your journe
 
       {/* Contact Section */}
       <section id="contact-us" className="py-20 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto px-1 md:px-4">
+        <div className="container px-1 md:px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
