@@ -10,6 +10,11 @@ body {
 .container {
   width: 100vw;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+}
 nav {
   position: fixed;
   height: 5rem;
@@ -24,12 +29,7 @@ nav {
   display: flex;
   align-items: center;
   padding-left: 1rem;
-}
-header {
-  display: flex;
-  justify-content: center;
-}
-nav {
+  
   width: 90vw;
   display: flex;
   justify-content: space-between;
