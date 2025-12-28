@@ -257,7 +257,7 @@ export default function Home() {
 
       {/* About Us Section */}
      <section id="about-us" className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
-  <div className="container mx-auto px-4"> 
+  <div className=" mx-auto px-4"> 
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -338,7 +338,7 @@ With us, you are not just getting food; you are gaining a partner in your journe
       {/* Contact Section */}
       <section id="contact-us" className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className=" mx-auto px-1 md:px-4">
-          <div className=" mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
                 Get In <span className="text-green-600">Touch</span>
