@@ -258,7 +258,7 @@ export default function Home() {
       {/* About Us Section */}
      <section id="about-us" className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
   <div className=" mx-auto px-4"> 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div className="grid grid-cols-1 items-center">
             <div data-aos="fade-right">
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                 About <span className="text-green-600">Us</span>
