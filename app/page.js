@@ -121,7 +121,7 @@ export default function Home() {
                   {item.label}
                 </a>
               ))}
-              <button className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-2  -mr-2 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
+              <button className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
                 Order Now
               </button>
             </div>
